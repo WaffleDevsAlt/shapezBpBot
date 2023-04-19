@@ -1,0 +1,7 @@
+{
+    "prefix": "!",
+    "rustBpUnpackerPath": "C:/Users/Heather/OneDrive/Documents/JS/shapezBpBot/shapez2-blueprintToImage/target/release",
+    "imagePath": "./blueprint_render.png",
+    "whitelistedRolesIds": ["838489135123136552"],
+    "whitelistedUserIds": ["606934506640900186"]
+}
