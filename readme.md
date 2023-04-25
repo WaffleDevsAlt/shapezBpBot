@@ -11,8 +11,8 @@ Rust: [v1.68.2](https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html)
 
 1. Create `./.env` file with contents `TOKEN=PASTETOKEN`
 2. Create `./models` folder with all .obj
-3. Create `./shapez2-blueprintToImage` with the [rust project](https://github.com/jmeggitt/shapez2_blueprint_renderer/)
-4. Run `cargo build --release` in `./shapez2-blueprintToImage`
+3. Create `./stringToImageDocker` with the [rust project](https://github.com/jmeggitt/shapez2_blueprint_renderer/)
+4. Run `cargo build --release` in `./stringToImageDocker`
 5. Change `./config.json` to your paths.
 6. Run `npm i` in the root
 

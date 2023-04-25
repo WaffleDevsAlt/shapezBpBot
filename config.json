@@ -1,7 +1,11 @@
 {
     "prefix": "!",
-    "rustBpUnpackerPath": "./shapez2-blueprintToImage/target/release",
-    "imagePath": "./blueprint_render.png",
-    "whitelistedRolesIds": ["RoleId"],
-    "whitelistedUserIds": ["UserId"]
+    "rustBpUnpackerPath2": "./shapez2-blueprintToImage/target/release",
+    "rustBpUnpackerPath": "./stringToImageDocker/target/release",
+    "imagePath2": "./blueprint_render.png",
+    "imagePath": "./out_glutin.png",
+    "whitelistedRolesIds": [],
+    "whitelistedUserIds": [],
+    "whitelistRolesEnabled": false,
+    "whitelistUerssEnabled": false
 }
