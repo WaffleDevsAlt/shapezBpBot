@@ -4,6 +4,7 @@
     "rustBpUnpackerPath": "./stringToImageDocker/target/release",
     "imagePath2": "./blueprint_render.png",
     "imagePath": "./out_glutin.png",
+    "txtPath": "./blueprintToString.txt",
     "whitelistedRolesIds": [],
     "whitelistedUserIds": [],
     "whitelistRolesEnabled": false,
