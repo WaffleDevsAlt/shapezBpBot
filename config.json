@@ -1,12 +1,8 @@
 {
     "prefix": "!",
-    "rustBpUnpackerPath2": "./shapez2-blueprintToImage/target/release",
-    "rustBpUnpackerPath": "./stringToImageDocker/target/release",
-    "imagePath2": "./blueprint_render.png",
-    "imagePath": "./out_glutin.png",
-    "txtPath": "./blueprintToString.txt",
-    "whitelistedRolesIds": [],
-    "whitelistedUserIds": [],
-    "whitelistRolesEnabled": false,
-    "whitelistUerssEnabled": false
+    "selfClientId": "763116571555659786",
+    "developmentGuildId": "838488568959074316",
+    "adminUserIds": ["606934506640900186"],
+    "adminRolesIds": ["606934506640900186"],
+    "logsChannel": "847644736469598278"
 }

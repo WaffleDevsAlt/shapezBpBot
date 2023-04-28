@@ -1,0 +1,92 @@
+{
+    "groups": {
+        "belt": {"name": "Belts"},
+        "splitter": {"group": "belt", "name": "Splitters"},
+        "merger": {"group": "belt", "name": "Mergers"},
+        "port": {"group": "belt", "name": "Catapults"},
+
+        "lift": {"name": "Lifts"},
+        "liftup": {"group": "lift", "name": "Lifts (Up)"},
+        "liftdown": {"group": "lift", "name": "Lifts (Down)"},
+
+        "misc": {"name": "Misc."},
+        
+        "fluid": {"name": "Fluids"},
+        "pipe": {"name": "Pipes"},
+        "pipeup": {"group": "pipe", "name": "Pipes (Up)"},
+        "pipedown": {"group": "pipe", "name": "Pipes (Down)"},
+        "rotator": {"name": "Rotators"},
+        "sandbox": {"name": "Sandbox"},
+        "shapeprocessor": {"name": "Processors"}
+    },
+    "buildings": {
+
+        "BeltDefaultForwardInternalVariant": {"name": "BeltForward", "group": "belt"},
+        "BeltDefaultLeftInternalVariant": {"name": "BeltLeft", "group": "belt"},
+        "BeltDefaultRightInternalVariant": {"name": "BeltRight", "group": "belt"},
+
+        "BeltPortReceiverInternalVariant": {"name": "BeltPortReceiver", "group": "port"},
+        "BeltPortSenderInternalVariant": {"name": "BeltPortSender", "group": "port"},
+
+        "BeltReaderDefaultInternalVariant": {"name": "BeltReader", "group": "misc"},
+        "LabelDefaultInternalVariant": {"name": "Label", "group": "misc"},
+        "StorageDefaultInternalVariant": {"name": "Storage", "group": "misc"},
+        "TrashDefaultInternalVariant": {"name": "Trash", "group": "misc"},
+
+        "FluidPackerDefaultInternalVariant": {"name": "FluidPacker", "group": "fluid"},
+        "FluidStorageDefaultInternalVariant": {"name": "FluidStorage", "group": "fluid"},
+        "FluidUnpackerDefaultInternalVariant": {"name": "FluidUnpacker", "group": "fluid"},
+        "MixerDefaultInternalVariant": {"name": "Mixer", "group": "fluid"},
+
+        "Lift1DownLeftInternalVariant" : {"name": "Lift1DownLeft", "group": "liftdown"},
+        "Lift1DownRightInternalVariant" : {"name": "Lift1DownRight", "group": "liftdown"},
+        "Lift1DownForwardInternalVariant" : {"name": "Lift1DownForward", "group": "liftdown"},
+        "Lift1DownBackwardInternalVariant" : {"name": "Lift1DownBackward", "group": "liftdown"},
+
+        "Lift1UpBackwardInternalVariant": {"name": "Lift1UpBackward", "group": "liftup"},
+        "Lift1UpForwardInternalVariant": {"name": "Lift1UpForward", "group": "liftup"},
+        "Lift1UpLeftInternalVariant": {"name": "Lift1UpLeft", "group": "liftup"},
+        "Lift1UpRightInternalVariant": {"name": "Lift1UpRight", "group": "liftup"},
+
+        "Merger2To1LInternalVariant": {"name": "Merger2To1L", "group": "merger"},
+        "Merger2To1RInternalVariant": {"name": "Merger2To1R", "group": "merger"},
+        "Merger3To1InternalVariant": {"name": "Merger3To1", "group": "merger"}, 
+        "MergerTShapeInternalVariant": {"name": "MergerTShape", "group": "merger"},
+
+        "PipeCrossInternalVariant": {"name": "PipeCross", "group": "pipe"},
+        "PipeForwardInternalVariant": {"name": "PipeForward", "group": "pipe"},
+        "PipeJunctionInternalVariant": {"name": "PipeJunction", "group": "pipe"},
+        "PipeLeftInternalVariant": {"name": "PipeLeft", "group": "pipe"},
+        "PipeRightInternalVariant": {"name": "PipeRight", "group": "pipe"},
+
+        "PipeDownBackwardInternalVariant": {"name": "PipeDownBackward", "group": "pipedown"},
+        "PipeDownForwardInternalVariant": {"name": "PipeDownForward", "group": "pipedown"},
+        "PipeDownLeftInternalVariant": {"name": "PipeDownLeft", "group": "pipedown"},
+        "PipeDownRightInternalVariant": {"name": "PipeDownRight", "group": "pipedown"},
+
+        "PipeUpBackwardInternalVariant": {"name": "PipeUpBackward", "group": "pipeup"},
+        "PipeUpForwardInternalVariant": {"name": "PipeUpForward", "group": "pipeup"},
+        "PipeUpLeftInternalVariant": {"name": "PipeUpLeft", "group": "pipeup"},
+        "PipeUpRightInternalVariant": {"name": "PipeUpRight", "group": "pipeup"},
+
+        "RotatorHalfInternalVariant": {"name": "RotatorHalf", "group": "rotator"},
+        "RotatorOneQuadCCWInternalVariant": {"name": "RotatorOneQuadCCW", "group": "rotator"},
+        "RotatorOneQuadInternalVariant": {"name": "RotatorOneQuad", "group": "rotator"},
+
+        "SandboxFluidProducerDefaultInternalVariant": {"name": "FluidProducer", "group": "sandbox"},
+        "SandboxItemProducerDefaultInternalVariant": {"name": "ItemProducer", "group": "sandbox"},
+
+        "Splitter1To2LInternalVariant": {"name": "Splitter1To2L", "group": "splitter"},
+        "Splitter1To2RInternalVariant": {"name": "Splitter1To2R", "group": "splitter"},
+        "SplitterTShapeInternalVariant": {"name": "SplitterTShape", "group": "splitter"},
+
+        "BarrelProducerDefaultInternalVariant": {"name": "BarrelProducer", "group": "shapeprocessor"},
+        "CrystalGeneratorDefaultInternalVariant": {"name": "CrystalGenerator", "group": "shapeprocessor"},
+        "CutterDefaultInternalVariant": {"name": "Cutter", "group": "shapeprocessor"},
+        "CutterHalfInternalVariant": {"name": "CutterHalf", "group": "shapeprocessor"},
+        "PainterDefaultInternalVariant": {"name": "Painter", "group": "shapeprocessor"},
+        "PinPusherDefaultInternalVariant": {"name": "PinPusher", "group": "shapeprocessor"},
+        "StackerDefaultInternalVariant": {"name": "Stacker", "group": "shapeprocessor"}
+
+    }
+}
